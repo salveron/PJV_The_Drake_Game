@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="salveron_BG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="833" prefWidth="1365" stylesheets="@victory.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.victory.VictoryController">
+
+    <children>
+
+        <VBox alignment="CENTER" layoutX="102.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="833.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="579.0" AnchorPane.topAnchor="0.0">
+
+            <children>
+      
+                      <Label id="salveron_label" fx:id="wonLabel" alignment="TOP_CENTER" layoutX="1343.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" textFill="#000000" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Forte" size="72.0" />
+               </font>
+            </Label>
+      
+            
+                      <Button id="salveron_backButton" fx:id="backToMenuButton" alignment="CENTER" cancelButton="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#BackToMenuButton" text="Back to Main Menu">
+
+                    <VBox.margin>
+
+                        <Insets top="300.0" />
+
+                    </VBox.margin>
+               <font>
+                  <Font name="Forte" size="31.0" />
+               </font>
+      
+                      </Button>
+
+            </children>
+
+        </VBox>
+
+    </children>
+
+</AnchorPane>

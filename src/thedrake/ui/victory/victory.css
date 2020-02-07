@@ -1,0 +1,32 @@
+#salveron_BG {
+    -fx-background-color: #123455;
+    -fx-background-size: cover;
+    -fx-background-image: url("victory_image.jpg");
+    -fx-background-repeat: stretch;
+}
+
+#salveron_backButton {
+    -fx-background-color: #d47000;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+}
+
+#salveron_backButton:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #d47000;
+    -fx-text-alignment: center;
+}
+
+#salveron_backButton:pressed {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-text-alignment: center;
+}
+
+#salveron_label {
+    -fx-text-fill: #d47000;
+}
+
+#salveron_label:hover {
+    -fx-text-fill: #ffffff;
+}

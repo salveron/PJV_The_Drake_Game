@@ -1,0 +1,32 @@
+#salveron_BG {
+    -fx-background-color: #ffffff;
+    -fx-background-size: cover;
+    -fx-background-image: url("menu_image.jpg");
+    -fx-background-repeat: stretch;
+}
+
+.salveron_button {
+    -fx-background-color: #d47000;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+}
+
+.salveron_button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #d47000;
+    -fx-text-alignment: center;
+}
+
+.salveron_button:pressed {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-text-alignment: center;
+}
+
+#salveron_title {
+    -fx-text-fill: #d47000;
+}
+
+#salveron_title:hover {
+    -fx-text-fill: #ffffff;
+}

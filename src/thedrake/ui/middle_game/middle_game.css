@@ -1,0 +1,9 @@
+Label {
+    -fx-font-family: "Forte";
+    -fx-font-size: 31;
+    -fx-text-fill: #ffffff;
+}
+
+MiddleGamePane {
+    -fx-background-color: #d47000;
+}
